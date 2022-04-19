@@ -1,0 +1,50 @@
+.loginContainer {
+  position: absolute;
+  z-index: 10;
+  width: 300px;
+  height: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: teal;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.loginBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.fail {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.loginCancle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
